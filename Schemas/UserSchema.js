@@ -28,6 +28,9 @@ const UserSchema  = new mongoose.Schema({
     gender :{
         type :  String,
         required  : true
+    },
+    all_addresses : {
+        type : Array
     }
 
 
